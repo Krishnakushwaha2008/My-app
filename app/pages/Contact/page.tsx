@@ -1,7 +1,10 @@
 import React from 'react'
+import Appoinment from '@/app/components/Appoinment/page'
 
 export default function Contact() {
   return (
-    <div className='text-yellow-300'>Contact</div>
+    <div >
+      <Appoinment/>
+    </div>
   )
 }

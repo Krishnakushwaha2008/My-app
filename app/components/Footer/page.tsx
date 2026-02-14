@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function Footer() {
+export default function Footer(){
   return (
     <footer className="bg-[#F5F2EA] text-[#2D3A25] py-12 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20 mb-12">
         
         {/* Contact Info */}
         <div className="space-y-2 ">
@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
 
         {/* Business Hours */}
-        <div className="space-y-2 pl-80">
+        <div className="space-y-2">
           <h4 className="text-4xl text-bold pb-15">Hours</h4>
           <p className="font-medium">Monday – Friday</p>
           <p>10am – 6pm</p>
@@ -38,24 +38,23 @@ export default function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="border-t border-gray-300 pt-6 space-y-4 text-sm text-gray-700">
-        <div className='flex justify-center'>
-          <div className="flex flex-wrap gap-6">
+      <div className="text-center border-t border-gray-300 pt-6 space-y-4 text-1xl text-gray-700">
+          <div className="ml-100 flex flex-wrap gap-10">
           <Link href="/privacy" className="hover:underline">Privacy & Cookies Policy</Link>
           <Link href="/estimate" className="hover:underline">Good Faith Estimate</Link>
           <Link href="/terms" className="hover:underline">Website Terms & Conditions</Link>
           <Link href="/disclaimer" className="hover:underline">Disclaimer</Link>
         </div>
-
+          <br />
         <p className="text-gray-600">
           Website Template Credits: <Link href="./" className="hover:underline">Go Bloom Creative</Link>
         </p>
-
+          <br />
+          <br />
         <p className="text-gray-600">
           All Rights Reserved © 2024 Your Business Name Here, LLC.
         </p>
         </div>
-      </div>
     </footer>
   );
 }
