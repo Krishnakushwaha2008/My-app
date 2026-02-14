@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 
 export default function BackgroundSection() {
@@ -38,7 +39,7 @@ export default function BackgroundSection() {
           {/* Licensure */}
           <div className="py-4">
             <button
-              onClick={() => toggleSection("licensure")}
+              onClick={() => toggleSection("license")}
               className="flex items-center justify-between w-full text-left"
             >
               <span className="text-lg font-medium text-[#2D3A25]">Licensure</span>
@@ -46,7 +47,7 @@ export default function BackgroundSection() {
                 {openSection === "licensure" ? "−" : "+"}
               </span>
             </button>
-            {openSection === "licensure" && (
+            {openSection === "license" && (
               <p className="mt-4 text-gray-700 text-sm leading-relaxed">
                 Licensure details go here...
               </p>

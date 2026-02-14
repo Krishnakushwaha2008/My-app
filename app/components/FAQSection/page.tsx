@@ -1,5 +1,5 @@
 "use client"
-// import Image from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 // import faqImg from "/assests/flower.png"; // replace with your actual image
 
@@ -20,10 +20,12 @@ export default function FAQSection() {
         
         {/* Left side - Image */}
         <div className="flex justify-center">
-          <img
+          <Image
             src="/apple.png" // replace with your actual image
             alt="Decorative flowers"
             className="rounded-lg object-cover"
+            width={400}
+            height={300}
           />
         </div>
 

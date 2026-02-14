@@ -19,21 +19,6 @@ export default function Home() {
         <FAQSection/>
         <Proffesional/>
         <GetStartedSection/>
-          <Image
-            className="dark:invert"
-            src="/next.svg"
-            alt="Next.js logo"
-            width={100}
-            height={20}
-            priority
-          />
-          <Image
-            className="dark:invert"
-            src="/vercel.svg"
-            alt="Vercel logomark"
-            width={16}
-            height={16}
-          />
     </div>
   );
 }

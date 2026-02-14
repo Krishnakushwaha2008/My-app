@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -29,9 +30,9 @@ export default function Footer() {
           <br />
           <br />
           <p>
-          <a href="/" className="hover:underline">Home</a><br />
-          <a href="/pages/Contact" className="hover:underline">Contact</a><br />
-          <a href="/pages/Blog" className="hover:underline">Blog</a>
+          <Link href="/" className="hover:underline">Home</Link><br />
+          <Link href="/pages/Contact" className="hover:underline">Contact</Link><br />
+          <Link href="/pages/Blog" className="hover:underline">Blog</Link>
           </p>
         </div>
       </div>
@@ -40,14 +41,14 @@ export default function Footer() {
       <div className="border-t border-gray-300 pt-6 space-y-4 text-sm text-gray-700">
         <div className='flex justify-center'>
           <div className="flex flex-wrap gap-6">
-          <a href="/privacy" className="hover:underline">Privacy & Cookies Policy</a>
-          <a href="/estimate" className="hover:underline">Good Faith Estimate</a>
-          <a href="/terms" className="hover:underline">Website Terms & Conditions</a>
-          <a href="/disclaimer" className="hover:underline">Disclaimer</a>
+          <Link href="/privacy" className="hover:underline">Privacy & Cookies Policy</Link>
+          <Link href="/estimate" className="hover:underline">Good Faith Estimate</Link>
+          <Link href="/terms" className="hover:underline">Website Terms & Conditions</Link>
+          <Link href="/disclaimer" className="hover:underline">Disclaimer</Link>
         </div>
 
         <p className="text-gray-600">
-          Website Template Credits: <a href="./" className="hover:underline">Go Bloom Creative</a>
+          Website Template Credits: <Link href="./" className="hover:underline">Go Bloom Creative</Link>
         </p>
 
         <p className="text-gray-600">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Section3() {
   return (
     <section className="bg-[#E8E4D9] py-16 px-6">
@@ -14,9 +15,9 @@ export default function Section3() {
           </p>
           <br />
           <br />
-          <a href="/pages/Contact" className="px-30 py-3 text-[#3d4a35] bg-[#E8E4D9]   border-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] transition">
+          <Link href="/pages/Contact" className="px-30 py-3 text-[#3d4a35] bg-[#E8E4D9]   border-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] transition">
             LET&apos;S CHAT →
-          </a>
+          </Link>
         </div>
 
         {/* Right side - Images */}

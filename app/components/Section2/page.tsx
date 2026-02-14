@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // import personImg from "../public/scenery.jpg"; // replace with your actual image
 
 export default function Section2() {
@@ -36,9 +37,9 @@ export default function Section2() {
             With empathy and guidance, we’ll work together to navigate the challenges life throws your way.
           </p>
           <br />
-          <a href="/pages/Contact" className=" text-[#3d4a35] bg-gray-300   border-t-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] py-3 pr-110 text-center">
+          <Link href="/pages/Contact" className=" text-[#3d4a35] bg-gray-300   border-t-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] py-3 pr-110 text-center">
           GET IN TOUCH
-          </a>
+          </Link>
         </div>
       </div>
     </section>

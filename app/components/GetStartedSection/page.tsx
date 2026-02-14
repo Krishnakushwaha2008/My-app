@@ -1,4 +1,5 @@
 // components/GetStartedSection.js
+import Link from "next/link";
 export default function GetStartedSection() {
   return (
     <section className="bg-[#3d4a35] text-white py-20 px-6 text-center">
@@ -10,9 +11,9 @@ export default function GetStartedSection() {
           Contact me to book your first session. I look forward to starting 
           this therapeutic journey with you.
         </p>
-        <a href="/pages/Contact" className="mt-6 px-6 py-3 text-[#ffffff] bg-[#3d4a35]   border-2 border-[#ffffff] hover:text-[#3d4a35] hover:bg-[#ffffff] transition">
+        <Link href="/pages/Contact" className="mt-6 px-6 py-3 text-[#ffffff] bg-[#3d4a35]   border-2 border-[#ffffff] hover:text-[#3d4a35] hover:bg-[#ffffff] transition">
             GET IN TOUCH
-          </a>
+          </Link>
       </div>
     </section>
   );

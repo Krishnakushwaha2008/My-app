@@ -1,8 +1,5 @@
-// import myJob1 from "../public/flower.jpg"
-// import myJob2 from "../public/flower.jpg"
-// import myJob3 from "../public/flower.jpg"
-import Image from 'next/image';
-
+"use client"
+import Image from "next/image";
 export default function Section1(){
   const specialties = [
     {
@@ -37,10 +34,12 @@ export default function Section1(){
               
               {/* Circular Image Container */}
               <div className="relative w-64 h-64 overflow-hidden rounded-full border-4 border-white/20">
-                <img
+                <Image
                   src={item.imgSrc}
                   alt={item.title}
                   className="object-cover"
+                  width={256}
+                  height={256}
                 />
               </div>
             </div>
