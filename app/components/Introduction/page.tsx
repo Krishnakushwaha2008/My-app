@@ -10,8 +10,8 @@ export default function Introduction() {
         
 
         {/* Left side -Text*/}
-        <div className="flex flex-col text-[#3d4a35] items-center mr-30">
-          <h2 className=" text-6xl md:text-5xl font-serif font-semibold leading-tight">
+        <div className="flex flex-col text-[#3d4a35] items-start">
+          <h2 className="text-2xl md:text-5xl font-serif font-semibold leading-tight">
             Live a fulfilling life.
           </h2>
           <br />
@@ -22,7 +22,7 @@ export default function Introduction() {
           <p className="text-gray-700">
             It&apos;s easy to feel like you&apos;re alone in facing these challenges, but I&apos;m here to help.
           </p>
-            <Link href="/pages/Contact" className="mb-none mt-50 ml-10 px-80 text-[#3d4a35] bg-[#F5F2EA]   border-t-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] transition">
+            <Link href="/pages/Contact" className="mt-6 px-4 md:px-8 py-2 text-[#3d4a35] bg-[#F5F2EA] border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition rounded">
             GET IN TOUCH
           </Link>
         </div>

@@ -15,8 +15,8 @@ export default function FAQSection() {
     { title: "Certifications", content: "Certification details go here." },
   ];
   return (
-    <section className="bg-white py-16 px-6 h-200">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+    <section className="bg-white py-16 px-6 h-200 pb-50">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-start">
         
         {/* Left side - Image */}
         <div className="flex justify-center">
@@ -30,7 +30,7 @@ export default function FAQSection() {
         </div>
 
         {/* Right side - FAQ */}
-        <div className="text-bold text-[#2D3A25] w-full mt-40">
+        <div className="text-bold text-[#2D3A25] w-full mb-40">
           <h2 className="text-3xl md:text-5xl font-serif font-semibold pb-20">
             FAQs
           </h2>

@@ -12,7 +12,7 @@ export default function Homepage() {
         <Image
           src="/maya.png"
           alt="Apple"
-          className="rounded-t-[200] object-cover"
+          className="rounded-t-[200px] object-cover w-48 md:w-[500px] h-auto"
           width={500}
           height={600}
         />
@@ -21,15 +21,15 @@ export default function Homepage() {
 
         {/* Right side - Text */}
         <div className="flex flex-col text-[#3d4a35] items-center text-center">
-              <h2 className="text-6xl md:text-7xl font-serif font-semibold leading-tight">
-                Live your life <br /> in full bloom <br />
+              <h2 className="text-2xl md:text-7xl font-serif font-semibold leading-tight">
+                Dr. Maya Reynolds, PsyD
               </h2>
               <p className="text-[#3d4a35] text-lg mt-4">
-                  Therapy for Adults in Minneapolis, MN.
+                Licensed Clinical Psychologist (Fictional Therapist)
               </p>
               <a
                 href="./"
-                className="mt-6 px-6 py-3 text-center text-[#3d4a35] bg-[#ffffff] border-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] transition"
+                className="mt-6 px-4 md:px-6 py-2 text-center text-[#3d4a35] bg-white border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition rounded"
               >
                 CONNECT WITH ME →
               </a>

@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 export default function Appoinment() {
   return (
-	<section className="bg-[#E8E4D9] py-16 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="bg-[#E8E4D9] py-12 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
 
 		{/* Right side - Images */}
         <div className="relative flex justify-center">
@@ -13,13 +13,13 @@ export default function Appoinment() {
           <Image
             src="/apple.png"
             alt="Person holding lilacs"
-            className="rounded-t-[200] object-cover"
+            className="rounded-t-[200px] object-cover w-64 h-64 md:w-96 md:h-96"
             width={400}
             height={400}
           />
 
           {/* Circular inset image */}
-          <div className="absolute -bottom-8 -right-8 w-70 h-70 rounded-full overflow-hidden border-4 border-white shadow-lg">
+          <div className="absolute -bottom-6 -right-6 w-20 h-20 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <Image
               src="/apple.png"
               alt="Close-up of lilac flowers"
@@ -32,7 +32,7 @@ export default function Appoinment() {
         
         {/* Left side - Text */}
         <div className="text-[#2D3A25] space-y-6">
-          <h2 className="text-6xl md:text-5xl font-serif font-semibold leading-tight">
+          <h2 className="text-2xl md:text-5xl font-serif font-semibold leading-tight">
             Hi, I’m Lilac.
           </h2>
           <p className="text-gray-700 leading-relaxed">
@@ -40,7 +40,7 @@ export default function Appoinment() {
           </p>
           <br />
           <br />
-          <Link href="/pages/Contact" className="px-30 py-3 text-[#3d4a35] bg-[#E8E4D9]   border-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] transition">
+          <Link href="/pages/Contact" className="px-6 md:px-8 py-2 text-[#3d4a35] bg-[#E8E4D9] border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition rounded">
             LET&apos;S CHAT →
           </Link>
         </div>

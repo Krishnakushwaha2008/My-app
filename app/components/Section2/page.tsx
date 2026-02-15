@@ -37,8 +37,11 @@ export default function Section2() {
             With empathy and guidance, we’ll work together to navigate the challenges life throws your way.
           </p>
           <br />
-          <Link href="/pages/Contact" className=" text-[#3d4a35] bg-gray-300   border-t-2 border-[#3d4a35] hover:text-[#ffffff] hover:bg-[#3d4a35] py-3 pr-110 text-center">
-          GET IN TOUCH
+          <Link
+            href="/pages/Contact"
+            className="mt-4 inline-block w-full md:w-auto text-center px-4 md:px-8 py-2 text-sm md:text-base text-[#3d4a35] bg-white border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition rounded"
+          >
+            GET IN TOUCH
           </Link>
         </div>
       </div>

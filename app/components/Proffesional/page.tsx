@@ -16,11 +16,12 @@ export default function Professional() {
   ];
 
   return (
-    <section className="bg-gray-100 py-16 px-120 h-130 w-380">
-      <h2 className="text-bold text-[#2D3A25] w-full text-3xl md:text-5xl font-serif font-semibold p-10 ">
-        My Professional Background
-      </h2>
-      <div className="">
+    <section className="bg-gray-100 py-12 px-4">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-2xl md:text-5xl text-[#2D3A25] w-full font-serif font-semibold py-4 md:py-10">
+          My Professional Background
+        </h2>
+        <div>
         {sections.map((sec) => (
           <div key={sec.title} className="border-b border-gray-200 text-[#2D3A25] pb-2">
             <hr />
@@ -41,6 +42,7 @@ export default function Professional() {
             <hr />
           </div>
         ))}
+        </div>
       </div>
     </section>
   );
